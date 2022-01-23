@@ -24,8 +24,8 @@ const Slider = () => {
     return (
         <div>
             <Swiper navigation={true} className='h-96'>
-                <SwiperSlide>
-                 
+                <SwiperSlide className=''>
+                 1
                 </SwiperSlide>
                 <SwiperSlide>2</SwiperSlide>
                 <SwiperSlide>3</SwiperSlide>
