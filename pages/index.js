@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Slider from '../components/hero/Slider'
+import Products from './products'
 
 
 export default function Home() {
@@ -11,9 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Slider />
-     <h1 className='text-xl'>
-       saman
-     </h1>
+    <Products />
     </div>
   )
 }
