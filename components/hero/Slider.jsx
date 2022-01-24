@@ -23,13 +23,13 @@ const Slider = () => {
 
     return (
         <div>
-            <Swiper navigation={true} className='h-96'>
-                <SwiperSlide className=''>
+            <Swiper navigation={true} autoplay={true} className='h-96'>
+                <SwiperSlide className='bg-red-600'>
                  1
                 </SwiperSlide>
-                <SwiperSlide>2</SwiperSlide>
-                <SwiperSlide>3</SwiperSlide>
-                <SwiperSlide>4</SwiperSlide>
+                <SwiperSlide className='bg-blue-600'>2</SwiperSlide>
+                <SwiperSlide className='bg-indigo-600'>3</SwiperSlide>
+                <SwiperSlide className='bg-violet-800'>4</SwiperSlide>
             </Swiper>
         </div>
     );
