@@ -21,9 +21,11 @@ const Navbar = () => {
           </Link>
         </ul>
         <div className="relative text-center w-10 h-10  grid place-content-center">
-          <div className="text-3xl text-white    ">
+         <Link href={"/shop-cart"} passHref>
+         <div className="text-3xl text-white    ">
             <FiShoppingCart />
           </div>
+         </Link>
           <div className="absolute top-0 right-0 w-5 h-5 text-xs bg-blue-800 rounded-3xl shadow-lg grid place-content-center">
             <span className=" text-white rounded-full  ">2</span>
           </div>
