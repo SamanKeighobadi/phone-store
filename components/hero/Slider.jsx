@@ -15,12 +15,9 @@ import SwiperCore, { Navigation } from "swiper";
 SwiperCore.use([Navigation]);
 
 const Slider = () => {
-  
-
   return (
     <div>
       <Swiper navigation={true} autoplay={true} className="h-96">
-  
         <SwiperSlide className="bg-red-600">
           <Image
             alt="saman"
