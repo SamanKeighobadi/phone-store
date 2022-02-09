@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 // import Swiper core and required modules
-import SwiperCore, { Navigation } from "swiper";
+import SwiperCore, { Navigation ,Autoplay} from "swiper";
 
 // install Swiper modules
 SwiperCore.use([Navigation]);
@@ -17,7 +17,15 @@ SwiperCore.use([Navigation]);
 const Slider = () => {
   return (
     <div>
-      <Swiper navigation={true} autoplay={true} className="h-96">
+      <Swiper
+        navigation={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay]}
+        className="h-96"
+      >
         <SwiperSlide className="bg-red-600">
           <Image
             alt="saman"

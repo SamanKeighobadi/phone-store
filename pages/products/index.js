@@ -20,8 +20,8 @@ const Products = () => {
             key={index}
             className=" max-w-md rounded-lg bg-stone-50 px-6 text-justify font-sans font-normal  text-gray-700 shadow-lg "
           >
-            <Image alt="" width={100} height={100} src={"/images/img3.png"} />
-            <h4 className="py-1 font-semibold text-lg text-stone-700" >{product.name}</h4>
+            <Image alt="" width={500} height={500} src={"/images/iphone13pro.png"} />
+            <h4 className="py-1 font-semibold text-xl text-stone-700" >{product.name}</h4>
             <p className="py-3">
               Quis elit exercitation fugiat laboris cillum irure consequat
               fugiat id dolore laborum occaecat ad elit.
