@@ -5,7 +5,7 @@ import { FiShoppingCart } from "react-icons/fi";
 const Navbar = () => {
   return (
     <div className="">
-      <nav className="sticky top-0 flex h-14 items-center justify-between bg-blue-600 px-5">
+      <nav className="sticky top-0 flex h-14 items-center justify-between bg-sky-600 px-5">
         <ul className="flex   text-white ">
           <Link href={"/"}>
             <a className="py-1 px-2">Home</a>
