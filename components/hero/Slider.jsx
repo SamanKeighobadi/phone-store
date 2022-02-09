@@ -21,7 +21,7 @@ const Slider = () => {
         <SwiperSlide className="bg-red-600">
           <Image
             alt="saman"
-            src={"/images/Capture_7_8.jpg"}
+            src={"/images/imgjpg.jpg"}
             width={400}
             height={400}
             layout="fill"
