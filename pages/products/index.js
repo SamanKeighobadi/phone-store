@@ -18,7 +18,7 @@ const Products = () => {
         {productList.map((product, index) => (
           <div
             key={index}
-            className=" max-w-md rounded-lg bg-stone-50 px-6 text-justify font-sans font-normal text-gray-700 shadow-lg transition  delay-100 hover:-translate-y-1   duration-100"
+            className=" max-w-md rounded-lg bg-stone-50 px-6 text-justify font-sans font-normal text-gray-700 shadow-lg transition  delay-100 duration-100   hover:-translate-y-1"
           >
             <Image
               alt=""
@@ -33,7 +33,7 @@ const Products = () => {
               Quis elit exercitation fugiat laboris cillum irure consequat
               fugiat id dolore laborum occaecat ad elit.
             </p>
-            <div className="py-3 flex items-center justify-between">
+            <div className="flex items-center justify-between py-3">
               <div>
                 <Link
                   href={"/product/"}
@@ -48,7 +48,7 @@ const Products = () => {
               </div>
               <div>
                 <p className="inline pr-3 text-lg">999$</p>
-                <del className="text-xs inline">1054$</del>
+                <del className="inline text-xs">1054$</del>
               </div>
             </div>
           </div>
