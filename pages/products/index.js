@@ -18,21 +18,38 @@ const Products = () => {
         {productList.map((product, index) => (
           <div
             key={index}
-            className=" max-w-md rounded-lg bg-stone-50 px-6 text-justify font-sans font-normal  text-gray-700 shadow-lg "
+            className=" max-w-md rounded-lg bg-stone-50 px-6 text-justify font-sans font-normal text-gray-700 shadow-lg transition  delay-100 hover:-translate-y-1   duration-100"
           >
-            <Image alt="" width={500} height={500} src={"/images/iphone13pro.png"} />
-            <h4 className="py-1 font-semibold text-xl text-stone-700" >{product.name}</h4>
+            <Image
+              alt=""
+              width={500}
+              height={500}
+              src={"/images/iphone13pro.png"}
+            />
+            <h4 className="py-1 text-xl font-semibold text-stone-700">
+              {product.name}
+            </h4>
             <p className="py-3">
               Quis elit exercitation fugiat laboris cillum irure consequat
               fugiat id dolore laborum occaecat ad elit.
             </p>
-            <div className="py-3">
-              <Link href={"/product/"} as={`/products/${product.id}`} passHref>
-                <button className="my-2 rounded-md bg-sky-500 px-2 py-1 font-medium text-gray-50">
-                  Buy now
-                </button>
-              </Link>
-              <button className="my-2 rounded-md px-2 py-1">see more</button>
+            <div className="py-3 flex items-center justify-between">
+              <div>
+                <Link
+                  href={"/product/"}
+                  as={`/products/${product.id}`}
+                  passHref
+                >
+                  <button className="my-2 rounded-md bg-sky-500 px-2 py-1 font-medium text-gray-50">
+                    Buy now
+                  </button>
+                </Link>
+                <button className="my-2 rounded px-2 py-1">see more</button>
+              </div>
+              <div>
+                <p className="inline pr-3 text-lg">999$</p>
+                <del className="text-xs inline">1054$</del>
+              </div>
             </div>
           </div>
         ))}
