@@ -15,8 +15,10 @@ const Products = () => {
   return (
     <div className="my-12 px-12  pt-3 font-sans">
       <div className="text-center">
-        <h1 className="pb-5 text-5xl font-bold text-zinc-800">Our Phone Store</h1>
-        <p className="font-semibold px-44 text-lg  leading-loose py-4 ">
+        <h1 className="pb-5 text-5xl font-bold text-zinc-800">
+          Our Phone Store
+        </h1>
+        <p className="px-44 py-4 text-lg  font-semibold leading-loose ">
           Labore elit dolor nostrud commodo adipisicing tempor enim duis aute
           esse occaecat tempor. In cillum duis ullamco proident sunt enim. Ut id
           culpa sit cillum proident dolore aliqua incididunt. Officia veniam
@@ -24,7 +26,7 @@ const Products = () => {
           labore commodo.
         </p>
       </div>
-      <div className="grid grid-cols-1  place-content-center gap-5 sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-3">
+      <div className="mt-4 grid grid-cols-1 place-content-center gap-5 sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-3">
         {productList.map((product, index) => (
           <div
             key={index}
@@ -32,8 +34,8 @@ const Products = () => {
           >
             <Image
               alt=""
-              width={500}
-              height={500}
+              width={300}
+              height={300}
               src={"/images/iphone13pro.png"}
             />
             <h4 className="py-1 text-xl font-semibold text-stone-700">
@@ -54,7 +56,6 @@ const Products = () => {
                     See more
                   </button>
                 </Link>
-                
               </div>
               <div>
                 <p className="inline pr-3 text-lg">999$</p>
