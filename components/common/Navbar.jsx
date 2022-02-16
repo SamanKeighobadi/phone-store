@@ -21,7 +21,7 @@ const Navbar = () => {
           </Link>
         </ul>
         <div className="relative grid h-10 w-10  place-content-center text-center">
-          <Link href={"/shop-cart"} passHref>
+          <Link href={"/cart"} passHref>
             <div className="text-3xl text-white    ">
               <FiShoppingCart />
             </div>

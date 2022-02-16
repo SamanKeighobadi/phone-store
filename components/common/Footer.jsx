@@ -9,34 +9,34 @@ const Footer = () => {
           <div className="py-4">
             <ul className="">
               <li>
-                <h5 className="text-xl font-semibold">Item</h5>
+                <h5 className="text-xl font-semibold pb-5">About</h5>
               </li>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
+              <li>Services</li>
+              <li>Products</li>
+              <li>Buy</li>
+              <li>Sell</li>
             </ul>
           </div>
           <div>
             <ul>
               <li>
-                <h5 className="text-xl font-semibold">Item</h5>
+                <h5 className="text-xl font-semibold pb-5">Help & Contact</h5>
               </li>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
+              <li>Contact us</li>
+              <li>Seller Center</li>
+              <li>News</li>
+              <li>Careers</li>
             </ul>
           </div>
           <div>
             <ul>
               <li>
-                <h6 className="text-xl font-semibold">Item</h6>
+                <h6 className="text-xl font-semibold pb-5">Tools & apps</h6>
               </li>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
-              <li>item</li>
+              <li>Developers</li>
+              <li>Site map</li>
+              <li>Security center</li>
+              <li>Policies</li>
             </ul>
           </div>
         </div>
