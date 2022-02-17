@@ -7,10 +7,12 @@ const Footer = () => {
       <footer className="  bg-sky-600">
         <div className="xs:grid-cols-1 mx-9 grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 place-items-center text-stone-100">
           <div className="py-4">
-            <ul className="">
+            <ul className="pb-5">          
               <li>
                 <h5 className="text-xl font-semibold pb-5">About</h5>
               </li>
+
+              
               <li>Services</li>
               <li>Products</li>
               <li>Buy</li>
