@@ -14,11 +14,11 @@ const Products = () => {
 
   return (
     <div className="my-12 px-12  pt-3 font-sans">
-      <div className="text-center">
-        <h1 className="pb-5 text-5xl font-bold text-zinc-800">
+      <div className=" flex  flex-col items-center">
+        <h1 className="pb-5 xl:text-4xl  lg:text-4xl md:text-3xl sm:text-3xl text-3xl    font-bold text-zinc-800">
           Our Phone Store
         </h1>
-        <p className="px-44 py-4 text-lg  font-semibold leading-loose ">
+        <p className="lg:max-w-2xl text-center  py-4 text-lg  font-semibold leading-loose ">
           Labore elit dolor nostrud commodo adipisicing tempor enim duis aute
           esse occaecat tempor. In cillum duis ullamco proident sunt enim. Ut id
           culpa sit cillum proident dolore aliqua incididunt. Officia veniam

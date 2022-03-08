@@ -6,21 +6,22 @@ const ProductId = () => {
   const router = useRouter();
 
   return (
-    <div className="grid grid-cols-2  ">
-      <div>
-        <Image
+    <div className="grid xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 place-items-center  ">
+      <div className="flex">
+        {/* <Image
           alt=""
           src={"/images/iphone13pro.png"}
           width={500}
           height={500}
+
           layout="fixed"
-        />
+        /> */}
       </div>
-      <div className=" flex  flex-col justify-center ">
-        <h1 className="pb-4 text-4xl font-semibold text-stone-700">
+      <div className=" flex  flex-col justify-center  ">
+        <h1 className="pb-4 xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl text-2xl font-semibold text-stone-700">
           IPhone 13 Pro
         </h1>
-        <p className="font-semibold text-stone-600 text-justify max-w-lg">
+        <p className="font-semibold px-1 text-stone-600 text-justify max-w-lg">
           Sit adipisicing laborum tempor anim do qui tempor. Tempor eiusmod elit
           laborum sunt mollit ipsum nulla anim laborum voluptate sunt elit
           ullamco do. Id magna esse nulla consequat cupidatat cillum aute dolore
